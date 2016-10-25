@@ -1,0 +1,25 @@
+ASP.NET Core Deep Dive
+
+Hosting
+- Go through process of configuring, building and running a host
+  - Server, Server URLs, Content Root, Web Root, Startup, Environment
+  - Using the configuration model
+- Talk through how servers and features work
+- TestHost
+
+
+IIS
+- How to install the ASP.NET Core Module
+- Show web.config
+- Run the app to show the env vars
+- Show the pairing token header in the debugger
+- IIS publish tool setup
+- Publish
+- Publish as stand-alone app
+
+Request handling
+- Middleware as inline delegate
+  - Two levels of lambdas! Inception - a dream within a dream
+- Custom middleware: X-HTTP-Method-Override, MyMiddleware
+
+Routing

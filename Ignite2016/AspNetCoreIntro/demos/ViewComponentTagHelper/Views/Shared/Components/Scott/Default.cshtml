@@ -1,0 +1,10 @@
+﻿@model string[]
+
+<pre style="font: 10px/5px monospace;"> 
+
+@foreach (var line in Model)
+{
+    @Html.Raw(line + "\n")
+}
+
+</pre>

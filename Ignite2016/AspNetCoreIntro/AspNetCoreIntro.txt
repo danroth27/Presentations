@@ -1,0 +1,77 @@
+Getting Started with .NET Core
+- Get the .NET Core SDK/Tooling from https://dot.net
+- dotnet new
+  - Show generated code in VSCode
+- dotnet restore
+  - Talk to NuGet feeds and packages
+  - Show where packages get restored
+  - dotnet restore -v Information
+- dotnet run (does a build)
+  - Show built output
+
+Getting Started with ASP.NET Core
+- https://asp.net/get-started
+- Restore packages in VSCode
+- Run in VSCode
+
+Host config and startup
+- Create empty app in VS
+- Content root
+- IIS integration, show web.config
+- Startup
+- Show that you can set the server URL and port
+
+Middleware
+- Talk to exception handling page
+- Environments - switch to Production
+- Setup static files
+- Default files (talk to ordering)
+
+Logging
+- Add the Debug logger
+- Show the logging output (console and debug)
+
+Configuration
+- Create new Web App w/auth
+- Talk to provider model
+
+Dependency injection
+- Add application services in ConfigureServices
+- Use built-in container or pick your own
+- @inject
+
+MVC
+- Template route syntax
+- Web API action with attribute routing
+- Add swagger, generate AutoRest client
+- C# 6 support
+  - Add var me = "me"; $"About {me}";
+- Async views, @await
+- Tag Helpers
+  - Compare login views
+  - Show editor intellisense for styles and bound attributes
+  - Built-in tag helpers: environment, script
+  - Custom tag helper: markdown tag helper
+
+Futures
+=======
+
+URL Rewriting
+- Sample in BasicMiddleware
+- Regex based rules, web.config schema, or Apache
+Response Caching - Done!
+- Sample in ResponseCaching
+- In memory/distributed
+- Works with MVC response caching attribute
+Middleware as MVC filters
+- Look at filters web site in MVC tests
+View Component Tag Helpers
+- Use local feed
+- Create a ViewComponent
+- Enable tag helpers from the project
+- vc:dan-helper
+
+Razor Pages teaser
+- Go to RazorPages repo and follow the steps on the readme
+
+
