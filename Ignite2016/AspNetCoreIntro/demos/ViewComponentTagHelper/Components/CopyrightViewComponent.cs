@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ViewComponentTagHelper.Web.Components
+namespace ViewComponentTagHelper.Components
 {
     using System.Collections.Generic;
     using Microsoft.AspNetCore.Mvc;

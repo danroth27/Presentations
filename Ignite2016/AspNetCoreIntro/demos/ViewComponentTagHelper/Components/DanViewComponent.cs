@@ -6,7 +6,7 @@ using System.Reflection;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ViewComponentTagHelper.Web
+namespace ViewComponentTagHelper
 {
     public class DanViewComponent : ViewComponent  
     {
