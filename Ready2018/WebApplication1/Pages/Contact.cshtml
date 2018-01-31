@@ -1,0 +1,33 @@
+﻿@page
+@model ContactModel
+@{
+    ViewData["Title"] = "Contact";
+}
+<h2>@ViewData["Title"]</h2>
+<p class="text-success">@Model.Message</p>
+
+<form method="post">
+    <p>Please enter your contact info to hear about our fine products!</p>
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div>
+        <label asp-for="Contact.Name"></label>
+        <input asp-for="Contact.Name" />
+    </div>
+    <div>
+        <label asp-for="Contact.Email"></label>
+        <input asp-for="Contact.Email" />
+    </div>
+    <button>Submit</button>
+</form>
+
+<address>
+    One Microsoft Way<br />
+    Redmond, WA 98052-6399<br />
+    <abbr title="Phone">P:</abbr>
+    425.555.0100
+</address>
+
+<address>
+    <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
+    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+</address>
